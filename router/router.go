@@ -17,4 +17,5 @@ func SetupRouter(r *gin.Engine) {
 	usersPrivateEndpoint.POST("/", handler.CreateUser)
 	usersPrivateEndpoint.PUT("/:id", handler.UpdateUser)
 	usersPrivateEndpoint.DELETE("/:id", handler.DeleteUser)
+
 }
